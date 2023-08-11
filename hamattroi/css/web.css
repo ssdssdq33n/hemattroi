@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../image/star.jpg);
+    background-size: 100%;
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../font/static/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("../font/static/Montserrat-Light.ttf");
+}
+.sun{
+    height: 120px;
+    width: 120px;
+    background-image: url(../image/sun1.jpg);
+    border-radius: 50%;
+    background-size: cover ;
+    box-shadow: -4px 2px 56px #f9c05f;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*saothuy*/
+.saothuy{
+    height: 20px;
+    width: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #f9c05f;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%,-50);
+    animation:orbit2 2s linear infinite;
+}
+
+@keyframes orbit2{
+    from{transform: rotate(0deg)translateX(70px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(70px) rotate(-360deg);}
+}
+
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saothuy-outline,.saohv-outline, .saotv-outline, .saomoc-outline, .saokim-outline, .traidat-outline, .saohoa-outline, .saotho-outline{
+    border-radius: 50%;
+    border: 1px dotted #ddd9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.saothuy-outline{
+    height: 140px;
+    width: 140px;
+}
+/*end saothuy*/
+
+/*saokim*/
+.saokim{
+    height: 40px;
+    width: 40px;
+    background-image: url(../image/saokim.jpg);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%,-50);
+    animation:orbit3 10s linear infinite;
+}
+
+@keyframes orbit3{
+    from{transform: rotate(0deg)translateX(100px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(100px) rotate(-360deg);}
+}
+
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saokim-outline{
+    height:300px;
+    width: 300px;
+}
+/*end saokim*/
+
+/*traidat*/
+.traidat{
+    height: 50px;
+    width: 50px;
+    background-image: url(../image/traidat.jpg);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #2855d6;
+    left: 44%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+    animation:orbit4 20s linear infinite;
+}
+
+@keyframes orbit4{
+    from{transform: rotate(0deg)translateX(150px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(150px) rotate(-360deg);}
+}
+
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.traidat-outline{
+    height:200px;
+    width: 200px;
+}
+
+.mattrang{
+    height: 65px;
+    width: 65px;
+    border: 1px dotted #fff;
+    position: relative;
+    left: -8px;
+    top: -8px;
+    border-radius: 40px;
+}
+.mattrang1{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 45%;
+    top: 45%;
+    animation: orbit5 3s linear infinite;
+}
+@keyframes orbit5{
+    from{transform: rotate(0deg)translateX(33px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(33px) rotate(-360deg);}
+}
+/*end traidat*/
+
+/* sao hoa*/
+.saohoa{
+    height: 30px;
+    width: 30px;
+    background-image: url(../image/sao.png);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 46.5%;
+    top: 46.5%;
+    transform: translate(-40%,-40%);
+    animation:orbit6 30s linear infinite;
+}
+
+@keyframes orbit6{
+    from{transform: rotate(0deg)translateX(185px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(185px) rotate(-360deg);}
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saohoa-outline{
+    height:370px;
+    width: 370px;
+}
+/*end sao hoa*/
+
+/*sao moc*/
+.saomoc{
+    height: 40px;
+    width: 40px;
+    background-image: url(../image/sao.png);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation:orbit7 60s linear infinite;
+}
+
+@keyframes orbit7{
+    from{transform: rotate(0deg)translateX(217px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(217px) rotate(-360deg);}
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saomoc-outline{
+    height:430px;
+    width: 430px;
+}
+/*end sao moc*/
+/*sao tho*/
+.saotho{
+    height: 50px;
+    width: 50px;
+    background-image: url(../image/saoth.jpg);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation:orbit8 10s linear infinite;
+}
+
+@keyframes orbit8{
+    from{transform: rotate(0deg)translateX(250px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(250px) rotate(-360deg);}
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saotho-outline{
+    height:500px;
+    width: 500px;
+}
+/*end sao tho*/
+/*saotv*/
+.saotv{
+    height: 30px;
+    width: 30px;
+    background-image: url(../image/thienvuong.jpg);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation:orbit9 200s linear infinite;
+}
+
+@keyframes orbit9{
+    from{transform: rotate(0deg)translateX(280px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(280px) rotate(-360deg);}
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saotv-outline{
+    height:560px;
+    width: 560px;
+}
+/*end saotv*/
+/*haivuong*/
+.saohv{
+    height: 30px;
+    width: 30px;
+    background-image: url(../image/haivuong.jpg);
+    border-radius: 50%;
+    background-size: 100%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation:orbit10 400s linear infinite;
+}
+
+@keyframes orbit10{
+    from{transform: rotate(0deg)translateX(310px) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(310px) rotate(-360deg);}
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+.saohv-outline{
+    height:620px;
+    width: 620px;
+}
+/*end haivuong*/
